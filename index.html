@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netphoria</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url("https://cdn.discordapp.com/attachments/1109865813558698117/1116264999707492372/black-anonim-chelovek-kapyushon-temnii-chernii-81383_1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+      }
+
+      .overlay h1 {
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        margin-right: 10px;
+        height: 40px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .social-media {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .social-media a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #fff;
+        font-size: 20px;
+      }
+
+      /* Media Queries */
+      @media (max-width: 767px) {
+
+        /* Styles for mobile devices */
+        header {
+          padding: 10px;
+        }
+
+        .overlay h1 {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        /* Styles for tablets and larger screens */
+      }
+
+      @media (min-width: 992px) {
+        /* Styles for medium-sized and larger screens */
+      }
+
+      @media (min-width: 1200px) {
+        /* Styles for large screens */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-image"></div>
+    <div class="overlay">
+      <h1>I'm an entrepreneurial polymath involved in various roles as a Music Producer, Audio Engineer, Sound Designer, and Ethical Hacker. I side hustle as a moderator for a community of +6k members, wich helps me increase my social skills everytime.</h1>
+    </div>
+    <header>
+      <img src="https://cdn.discordapp.com/attachments/1107492231960600587/1116219578792550473/Netphoria_NPH_logo_png.png" alt="Logo" class="logo">
+      <nav>
+        <ul>
+          <li>
+            <a href="#whoami">Whoami</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="mailto:lovmmusic@gmail.com">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Rest of your website content goes here -->
+    <div class="social-media">
+      <a href="https://www.instagram.com/netph0ria" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@netphoria" target="_blank">YouTube</a>
+      <a href="https://twitter.com/netph0ria" target="_blank">Twitter</a>
+      <a href="https://soundcloud.com/netphoria" target="_blank">SoundCloud</a>
+      <a href="https://www.reddit.com/user/netphoria" target="_blank">Reddit</a>
+      <a href="mailto:lovmmusic@gmail.com">Email</a>
+    </div>
+  </body>
+</html>
